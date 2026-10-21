@@ -1,0 +1,4 @@
+CyberSafe Awareness Website
+No external Python packages are required.
+This project is a static website built with HTML, CSS, and JavaScript.
+Open index.html in a modern web browser.

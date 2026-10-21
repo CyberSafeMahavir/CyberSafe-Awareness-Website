@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CyberSafe | Online Safety Awareness</title>
+<style>
+:root{--navy:#10213a;--blue:#2457d6;--cyan:#dff7ff;--bg:#f5f8ff;--ink:#172033;--muted:#5d6b82;--white:#fff;--green:#117a55}
+*{box-sizing:border-box}body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+header{background:linear-gradient(120deg,#10213a,#2457d6);color:white;padding:26px 18px}
+nav,main,.foot-inner{max-width:1000px;margin:auto}nav{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.brand{font-weight:800;font-size:1.35rem;letter-spacing:.4px}nav a{color:white;text-decoration:none;margin-left:14px;font-size:.95rem}
+.hero{max-width:1000px;margin:34px auto 10px;padding:12px 0 26px}.pill{display:inline-block;background:#ffffff22;border:1px solid #ffffff55;border-radius:999px;padding:5px 12px;font-size:.85rem}
+h1{font-size:clamp(2rem,6vw,3.5rem);line-height:1.08;margin:16px 0} .hero p{max-width:650px;color:#e5edff;font-size:1.08rem}
+.btn{display:inline-block;background:white;color:#173c9b;text-decoration:none;border-radius:10px;padding:11px 16px;font-weight:700;border:0;cursor:pointer}
+main{padding:22px 18px 40px}.section-title{margin:18px 0 6px;font-size:1.8rem}.intro{color:var(--muted);margin-top:0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:15px;margin:20px 0 30px}
+.card{background:white;border:1px solid #e0e7f4;border-radius:16px;padding:20px;box-shadow:0 5px 18px #10213a0a}
+.emoji{font-size:1.8rem}.card h3{margin:8px 0}.card p{color:var(--muted);margin-bottom:0}
+.notice{background:var(--cyan);border-left:5px solid #159ac1;padding:16px;border-radius:10px;margin:18px 0}
+.checklist label{display:flex;gap:10px;align-items:flex-start;padding:9px 0;border-bottom:1px solid #edf0f7}.checklist input{margin-top:6px;transform:scale(1.15)}
+.quiz-question{font-weight:700;margin:18px 0 8px}.quiz-option{display:block;margin:8px 0;padding:10px;border:1px solid #d9e1f0;border-radius:9px;background:#fff;cursor:pointer}
+.quiz-option input{margin-right:8px}.action{background:var(--blue);color:white;border:0;border-radius:10px;padding:11px 16px;font-weight:700;cursor:pointer;margin-top:10px}
+#quiz-result{font-weight:700;margin-top:14px;color:var(--green)}
+footer{background:var(--navy);color:#e4eafa;padding:22px 18px;text-align:center;font-size:.9rem}
+.small{font-size:.88rem;color:var(--muted)}
+@media(max-width:500px){nav a{margin-left:0;margin-right:12px}.hero{margin-top:18px}.card{padding:17px}}
+</style>
+</head>
+<body>
+<header>
+  <nav><div class="brand">🛡️ CyberSafe</div><div><a href="#learn">Learn</a><a href="#checklist">Checklist</a><a href="#quiz">Quiz</a></div></nav>
+  <section class="hero">
+    <span class="pill">Cyber Safety Awareness Project</span>
+    <h1>Pause. Think.<br>Stay CyberSafe.</h1>
+    <p>Learn simple ways to protect your accounts, recognize online scams, and browse the internet more safely.</p>
+    <a class="btn" href="#learn">Explore safety tips ↓</a>
+  </section>
+</header>
+<main>
+<section id="learn">
+<h2 class="section-title">Know the risks</h2><p class="intro">A few simple habits can help keep your personal information safer online.</p>
+<div class="grid">
+<article class="card"><div class="emoji">🎣</div><h3>Spot phishing</h3><p>Be careful with urgent messages, unexpected links, and requests for passwords or OTPs. Verify the sender through a trusted channel.</p></article>
+<article class="card"><div class="emoji">🔐</div><h3>Use strong passwords</h3><p>Use long, unique passwords for different accounts. A password manager can help you keep track of them.</p></article>
+<article class="card"><div class="emoji">📲</div><h3>Protect your OTP</h3><p>Never share an OTP, PIN, or recovery code with anyone. Genuine support staff should not ask you to reveal these secrets.</p></article>
+<article class="card"><div class="emoji">🌐</div><h3>Browse safely</h3><p>Check website addresses carefully, keep software updated, and avoid entering sensitive details on unfamiliar sites.</p></article>
+<article class="card"><div class="emoji">🧑‍🤝‍🧑</div><h3>Protect your privacy</h3><p>Think before posting personal details, live location, school information, or private photos publicly.</p></article>
+<article class="card"><div class="emoji">💳</div><h3>Avoid online scams</h3><p>Be suspicious of guaranteed prizes, too-good-to-be-true offers, and pressure to pay quickly. Verify before acting.</p></article>
+</div>
+<div class="notice"><strong>Remember:</strong> Stop, verify, and ask a trusted adult or official support channel if a message feels suspicious.</div>
+</section>
+<section id="checklist">
+<h2 class="section-title">My cyber safety checklist</h2><p class="intro">Tick the habits you already follow.</p>
+<div class="card checklist">
+<label><input type="checkbox"> I use a different password for important accounts.</label>
+<label><input type="checkbox"> I never share OTPs, PINs, or passwords.</label>
+<label><input type="checkbox"> I check links and website addresses before opening them.</label>
+<label><input type="checkbox"> I keep my phone and apps updated.</label>
+<label><input type="checkbox"> I review privacy settings on social media.</label>
+<label><input type="checkbox"> I report suspicious messages instead of forwarding them.</label>
+</div>
+</section>
+<section id="quiz">
+<h2 class="section-title">Quick cyber safety quiz</h2><p class="intro">Choose one answer for each question, then check your score.</p>
+<div class="card">
+<form id="quiz-form">
+<p class="quiz-question">1. Someone asks you to share an OTP to receive a prize. What should you do?</p>
+<label class="quiz-option"><input type="radio" name="q1" value="a"> Share it quickly</label>
+<label class="quiz-option"><input type="radio" name="q1" value="b"> Never share it; verify and report the message</label>
+<p class="quiz-question">2. Which password habit is safer?</p>
+<label class="quiz-option"><input type="radio" name="q2" value="a"> Reuse one short password everywhere</label>
+<label class="quiz-option"><input type="radio" name="q2" value="b"> Use long, unique passwords</label>
+<p class="quiz-question">3. What should you do with an unexpected suspicious link?</p>
+<label class="quiz-option"><input type="radio" name="q3" value="a"> Check the sender and link before doing anything</label>
+<label class="quiz-option"><input type="radio" name="q3" value="b"> Open it immediately</label>
+<button class="action" type="submit">Check my score</button>
+<button class="action" type="button" id="reset-btn" style="background:#5d6b82">Try again</button>
+<p id="quiz-result" aria-live="polite"></p>
+</form>
+</div>
+</section>
+<p class="small">Educational project only. This website does not collect or send your answers or personal information.</p>
+</main>
+<footer><div class="foot-inner">CyberSafe Awareness Website · Stay alert. Stay safe online.</div></footer>
+<script>
+const form=document.getElementById('quiz-form');
+form.addEventListener('submit',function(e){e.preventDefault();const answers={q1:'b',q2:'b',q3:'a'};let score=0;for(const q in answers){const selected=form.querySelector('input[name="'+q+'"]:checked');if(selected&&selected.value===answers[q])score++;}document.getElementById('quiz-result').textContent='Your score: '+score+' / 3. '+(score===3?'Excellent work! Keep practising safe online habits.':'Review the tips above and try again.');});
+document.getElementById('reset-btn').addEventListener('click',function(){form.reset();document.getElementById('quiz-result').textContent='';});
+</script>
+</body>
+</html>
