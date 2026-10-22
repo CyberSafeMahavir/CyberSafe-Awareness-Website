@@ -35,4 +35,4 @@ This is an awareness and learning project, not a security scanner. It does not d
 - [ ] Try again resets the quiz
 
 ## Author
-Replace `[Enter your name]` with your own name before submission.
+This project was created as part of the Cybersecurity Bootcamp.
