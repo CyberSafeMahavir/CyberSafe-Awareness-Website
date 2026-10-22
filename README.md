@@ -1,6 +1,6 @@
 # CyberSafe Awareness Website
 
-**Student name:** [Enter your name]  
+**Student name:** Digari Mahavirkumar Parsotambhai 
 **Course/Bootcamp:** Cybersecurity Bootcamp  
 **Project type:** Cyber safety awareness website
 
